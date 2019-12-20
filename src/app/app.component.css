@@ -1,45 +1,25 @@
-/*.button {
-    margin-top: 75px;
-    text-align: center;
-}
-.button-for-all {
-    height: 74px;
-    font-size: 23px;
-    width: 350px;
-    color: #ffffff;
-    background-color: #ce4da2;
-    border: 0;
-    border-radius: 7px;
-}
-
-
-.flex-column {
-    display: flex;
-    flex-direction: column;
-}
-
-
-main #about-us {
-    height: 426px;
-    background-color: #ffffff;
-}
-.font-img-map {
-    height: 300px;
-    width: 100%;
-}
-.font-img-map img {
-    height: 315px;
-}*/
 .h3 {
+    margin: 0 auto;
     font-size: 36px;
     color: #e56abb;
     text-align: center;
+    margin: 30px 0;
 }
 
 .w100 {
     width: 100%;
 }
 
+
+.flex-center-column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mt-65 {
+    margin-top: 65px;
+}
 /* --- styles block header --- */
 #header {
     height: 136px;
@@ -191,4 +171,68 @@ main #about-us {
     background-color: #ce4da2;
     border: 0;
     border-radius: 7px;
+}
+
+/* --- styles block about-us --- */
+
+#about-us {
+    height: 426px;
+    background-color: #ffffff;
+}
+
+#about-us .font-img-map {
+    margin-bottom: 40px;
+}
+
+#about-us .number-info p {
+    font-size: 20px;
+    color: #137893;
+}
+
+#about-us .text-info p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+}
+
+#about-us .progress-one img {
+    display: block;
+    position: absolute;
+    width: 49px;
+    height: 53px;
+    top: 11%;
+    left: 28%;
+}
+
+#about-us .progress-one p {
+    display: block;
+    position: absolute;
+    top: 27%;
+    left: 34%;
+}
+
+#about-us .txt p {
+    display: block;
+    position: absolute;
+    font-size: 12px;
+    line-height: 8px;
+    top: 50%;
+    left: 50%;
+}
+
+/* --- styles block in-tur --- */
+
+#in-tur {
+    height: 430px;
+    background-color: #f9f8f4;
+}
+
+#in-tur img {
+    text-align: center;
+}
+
+#in-tur p {
+    font-size: 23px;
+    color: #498da2;
+    text-align: center;
 }
