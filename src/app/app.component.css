@@ -25,8 +25,16 @@
     margin-bottom: 40px;
 }
 
+.ml-0 {
+    margin-left: 0;
+}
+
 .mt-5 {
     margin-top: 5px;
+}
+
+.ml-40 {
+    margin-left: 40px;
 }
 
 .pb-20 {
@@ -229,24 +237,30 @@
 /* --- styles block programm --- */
 
 #programm {
+    min-width: 1520px;
     height: auto;
     width: 100%;
     background: url(../assets/programm/img-back-prog.png) no-repeat;
     background-size: cover;
 }
 
+#programm .container-wrapper .container {
+    height: auto;
+    max-width: 1160px;
+}
+
 #programm .vertical-line {
     display: block;
     position: absolute;
     height: 260px;
-    width: 1px;
+    width: 2px;
     top: -5%;
     left: 100%;
 }
 
 #programm .vertical-line img {
     height: 260px;
-    width: 1px;
+    width: 2px;
 }
 
 #programm .carousel-inner {
@@ -276,5 +290,33 @@
 #go-us {
     height: 380px;
     width: 100%;
-    background-color: #f9f8f4;
+    min-width: 1520px;
+}
+
+#go-us .container-wrapper .container {
+    height: 380px;
+    max-width: 1160px;
+    background: url(../assets/go-us/img-back-go-us.png) no-repeat;
+    background-size: cover;
+}
+
+#go-us .go-us-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+#go-us .go-us-img img {
+    width: 160px;
+    height: 160px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+#go-us p {
+    font-size: 16px;
+}
+
+#go-us span {
+    margin-right: 20px;
 }
